@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengisi Form Undangan Pernikahan</title>
+    <link rel="icon" href="asset/logo.png" type="image/png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="m-auto container">
+      <form id="undanganForm" class="m-2 p-3 rounded shadow">
+        <div class="d-flex justify-content-center">
+          <img
+            src="/asset/banner.png"
+            alt="profil"
+            width="100%"
+            class="image"
+            \
+          />
+        </div>
+        <div class="d-flex justify-content-center mt-3 fw-bold fs-2">
+          <p class="text-center">Form Pernikahan</p>
+        </div>
+
+        <label for="namaPria" class="form-label fw-bold fs-4"
+          >Data pengantin Pria</label
+        >
+        <div class="mb-3">
+          <label for="namaPria" class="form-label">Nama Pengantin Pria</label>
+          <input type="name" class="form-control" id="namaPria" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="namaAyahPria" class="form-label">Nama Ayah</label>
+          <input type="name" class="form-control" id="namaAyahPria" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="namaIbuPria" class="form-label">Nama Ibu</label>
+          <input type="name" class="form-control" id="namaIbuPria" required />
+        </div>
+
+        <label for="namaWanita" class="form-label fw-bold fs-4"
+          >Data pengantin Wanita</label
+        >
+        <div class="mb-3">
+          <label for="namaWanita" class="form-label"
+            >Nama Pengantin Wanita</label
+          >
+          <input type="name" class="form-control" id="namaWanita" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="namaAyahWanita" class="form-label">Nama Ayah</label>
+          <input
+            type="name"
+            class="form-control"
+            id="namaAyahWanita"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="namaIbuWanita" class="form-label">Nama Ibu</label>
+          <input type="name" class="form-control" id="namaIbuWanita" required />
+        </div>
+
+        <label for="tanggalAkad" class="form-label fw-bold fs-4">Akad Nikah</label>
+        <div class="mb-3">
+          <label for="tanggalAkad" class="form-label">Tanggal Akad Nikah</label>
+          <input type="date" class="form-control" id="tanggalAkad" />
+        </div>
+        <div class="mb-3">
+          <label for="jamMulaiAkad" class="form-label">Jam Mulai</label>
+          <input type="time" class="form-control" id="jamMulaiAkad" />
+        </div>
+
+        <div class="mb-3">
+          <label for="jamSelesaiAkad" class="form-label">Jam Selesai</label>
+          <input type="time" class="form-control" id="jamSelesaiAkad" />
+        </div>
+
+        <div class="mb-3">
+          <label for="alamatAkad" class="form-label"
+            >Bertempat di - alamat
+          </label>
+          <input type="name" class="form-control" id="alamatAkad" />
+        </div>
+
+        <label for="tanggalResepsi" class="form-label fw-bold fs-4">Resepsi Pernikahan</label>
+        <div class="mb-3">
+          <label for="tanggalResepsi" class="form-label">Tanggal Resepsi</label>
+          <input type="date" class="form-control" id="tanggalResepsi" />
+        </div>
+        <div class="mb-3">
+          <label for="JamMulaiResepsi" class="form-label">Jam Mulai</label>
+          <input type="time" class="form-control" id="JamMulaiResepsi" />
+        </div>
+
+        <div class="mb-3">
+          <label for="jamSelesaiResepsi" class="form-label">Jam Selesai</label>
+          <input type="time" class="form-control" id="jamSelesaiResepsi" />
+        </div>
+
+        <div class="mb-3">
+          <label for="alamatResepsi" class="form-label"
+            >Bertempat di - alamat
+          </label>
+          <input type="name" class="form-control" id="alamatResepsi" />
+        </div>
+        <div class="mb-3">
+          <span 
+            ><i
+              >*Note : Untuk keperluan denah dan barcode, mohon share lokasi
+              (share location) melalui WhatsApp agar barcode dapat dibuat. Untuk
+              denah, silakan digambar di kertas dan kirimkan fotonya melalui
+              WhatsApp.</i
+            ></span
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+    crossorigin="anonymous"
+  ></script>
+  <script src="scipt.js"></script>
+</html>
