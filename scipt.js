@@ -25,17 +25,25 @@ form.addEventListener("submit", function (e) {
   const jamSelesaiResepsi = document.getElementById("jamSelesaiResepsi").value;
   const alamatResepsi = document.getElementById("alamatResepsi").value.trim();
 
+  //data anak ke berapa
+  const anakPria = document.getElementById("anakKePria").value.trim()
+  const anakWanita = document.getElementById("anakKeWanita").value.trim()
+
   // Format pesan
   const pesan =
     `Berikut saya kirimkan detail data undangan yang perlu dicetak:\n\n` +
     `🔹 *Data Pengantin Pria*\n` +
     `- Nama: ${namaPria}\n` +
     `- Ayah: ${namaAyahPria}\n` +
-    `- Ibu: ${namaIbuPria}\n\n` +
+    `- Ibu: ${namaIbuPria}\n` +
+    `- Anak ke- : ${anakPria}\n\n` +
+
     `🔹 *Data Pengantin Wanita*\n` +
     `- Nama: ${namaWanita}\n` +
     `- Ayah: ${namaAyahWanita}\n` +
-    `- Ibu: ${namaIbuWanita}\n\n` +
+    `- Ibu: ${namaIbuWanita}\n` +
+    `- Anak Ke- : ${anakWanita}\n\n` +
+
     `🔹 *Akad Nikah*\n` +
     `- Tanggal: ${tanggalAkad}\n` +
     `- Waktu: ${jamMulaiAkad} - ${jamSelesaiAkad}\n` +
