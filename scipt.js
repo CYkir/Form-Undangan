@@ -28,18 +28,21 @@ form.addEventListener("submit", function (e) {
   //data anak ke berapa
   const anakPria = document.getElementById("anakKePria").value.trim()
   const anakWanita = document.getElementById("anakKeWanita").value.trim()
-
+  const namaPanggilanPria = document.getElementById("namaPanggilanPria").value.trim()
+  const namaPanggilanWanita = document.getElementById("namaPanggilanWanita").value.trim()
   // Format pesan
   const pesan =
     `Berikut saya kirimkan detail data undangan yang perlu dicetak:\n\n` +
     `🔹 *Data Pengantin Pria*\n` +
     `- Nama: ${namaPria}\n` +
+    `-Nama Panggilan : ${namaPanggilanPria}` +
     `- Ayah: ${namaAyahPria}\n` +
     `- Ibu: ${namaIbuPria}\n` +
     `- Anak ke- : ${anakPria}\n\n` +
 
     `🔹 *Data Pengantin Wanita*\n` +
     `- Nama: ${namaWanita}\n` +
+    `- Nama Panggilan : ${namaPanggilanWanita}` +
     `- Ayah: ${namaAyahWanita}\n` +
     `- Ibu: ${namaIbuWanita}\n` +
     `- Anak Ke- : ${anakWanita}\n\n` +
