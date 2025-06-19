@@ -35,14 +35,14 @@ form.addEventListener("submit", function (e) {
     `Berikut saya kirimkan detail data undangan yang perlu dicetak:\n\n` +
     `🔹 *Data Pengantin Pria*\n` +
     `- Nama: ${namaPria}\n` +
-    `-Nama Panggilan : ${namaPanggilanPria}` +
+    `-Nama Panggilan : ${namaPanggilanPria}\n` +
     `- Ayah: ${namaAyahPria}\n` +
     `- Ibu: ${namaIbuPria}\n` +
     `- Anak ke- : ${anakPria}\n\n` +
 
     `🔹 *Data Pengantin Wanita*\n` +
     `- Nama: ${namaWanita}\n` +
-    `- Nama Panggilan : ${namaPanggilanWanita}` +
+    `- Nama Panggilan : ${namaPanggilanWanita}\n` +
     `- Ayah: ${namaAyahWanita}\n` +
     `- Ibu: ${namaIbuWanita}\n` +
     `- Anak Ke- : ${anakWanita}\n\n` +
